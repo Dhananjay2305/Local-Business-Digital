@@ -1,4 +1,3 @@
-# Local-Business-Digital
 # Local Business Digital Project
 
 ## Project Overview
