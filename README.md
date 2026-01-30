@@ -21,6 +21,19 @@ Most local businesses (kirana shops, salons, small stores) struggle to go online
 As a result, they lose customers to big platforms.
 ## ✅ Solution
 
+## 🔁 How It Works
+
+1. Shopkeeper visits the main website
+2. Submits basic shop details
+3. A **unique shop ID** is generated
+4. Shopkeeper is redirected to an **Admin Panel**
+5. From Admin Panel, shopkeeper can:
+   - Upload shop logo
+   - Add products and prices
+6. A **unique shop website link** is generated
+7. Customers visit the shop website, select items, and order via WhatsApp
+
+
 Local Business Digital Booster helps shopkeepers go online in minutes.
 
 It:
@@ -28,4 +41,6 @@ It:
 - Provides a **simple admin panel**
 - Allows customers to **order items via WhatsApp**
 - Requires **no technical skills**
+
+  
 
