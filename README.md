@@ -11,7 +11,7 @@ customer can oder items from nearby shops
 - Provide an online presence using a simple website
 - Practice HTML, CSS, and basic web design concepts
 - Build a beginner-friendly project for GitHub portfolio
-## ❌ Problem
+## Problem
 
 Most local businesses (kirana shops, salons, small stores) struggle to go online because:
 - They lack technical knowledge
@@ -19,9 +19,9 @@ Most local businesses (kirana shops, salons, small stores) struggle to go online
 - Managing online orders is complicated
 
 As a result, they lose customers to big platforms.
-## ✅ Solution
+## Solution
 
-## 🔁 How It Works
+## How It Works
 
 1. Shopkeeper visits the main website
 2. Submits basic shop details
