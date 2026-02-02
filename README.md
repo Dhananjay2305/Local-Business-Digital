@@ -3,7 +3,7 @@
 ## Project Overview
 The **Local Business Digital Project** is a simple web-based application designed to help local businesses establish a digital presence.  
 This project showcases a business profile with essential details like services, contact information, and location, making it easy for customers to connect with the business online.
-customer can oder items from nearby shops 
+customer can oder items from nearby shops....
 
 
 ## Objectives
