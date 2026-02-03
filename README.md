@@ -42,5 +42,8 @@ It:
 - Allows customers to **order items via WhatsApp**
 - Requires **no technical skills**
 
+  <img width="1920" height="1080" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/b7094731-5c8e-4488-9374-bc3d1257754c" />
+
+
   
 
