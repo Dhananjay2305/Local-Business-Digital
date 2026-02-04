@@ -46,7 +46,7 @@ It:
 
   <img width="1920" height="1080" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/b7094731-5c8e-4488-9374-bc3d1257754c" />
   <img width="1874" height="904" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/57d93f97-80b0-48fe-9f27-3ed68068130e" />
-  <img width="1920" height="1080" alt="Screenshot (139)" src="https://github.com/user-attachments/assets/04957716-1ae5-4742-9234-13d3614df27f" />
+  
 
 
   
