@@ -56,15 +56,15 @@ window.addEventListener('scroll', () => {
 // Plan selection handler
 function selectPlan(planName) {
     const planNames = {
-        'basic': 'Basic',
-        'standard': 'Standard',
-        'premium': 'Premium'
+        'free': 'Starter',
+        'growth': 'Growth',
+        'pro': 'Pro'
     };
 
     const planPrice = {
-        'basic': '₹199',
-        'standard': '₹299',
-        'premium': '₹499'
+        'free': '₹0',
+        'growth': '₹299',
+        'pro': '₹499'
     };
 
     // Store selected plan
@@ -100,9 +100,9 @@ function showNotification(message, type = 'info') {
     notification.textContent = message;
 
     // Determine background color based on type
-    let bgColor = '#6366f1'; // default info
+    let bgColor = '#4f46e5'; // Indigo 600
     if (type === 'success') {
-        bgColor = '#10b981';
+        bgColor = '#14b8a6'; // Teal 500
     } else if (type === 'error') {
         bgColor = '#ef4444';
     }

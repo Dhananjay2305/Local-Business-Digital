@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopkeeper Website - Setup Your Shop</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body class="shopkeeper">
+    <div class="page">
+        <header class="page-header">
+            <div>
+                <h1 class="page-title">Shopkeeper Setup</h1>
+                <p class="page-subtitle">
+                    Add your shop name, logo, and products. Then open your customer shop website.
+                </p>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-primary" onclick="openShop()">Open Customer Shop</button>
+            </div>
+        </header>
+
+        <div class="grid">
+            <section class="card">
+                <h2 class="card-title">Shop Details</h2>
+                <label class="field">
+                    <span class="field-label">Shop name</span>
+                    <input id="shopNameInput" placeholder="Enter shop name">
+                </label>
+                <button class="btn btn-primary" onclick="saveShopName()">Save Shop Name</button>
+            </section>
+
+            <section class="card">
+                <h2 class="card-title">Shop Logo</h2>
+                <label class="field">
+                    <span class="field-label">Upload logo</span>
+                    <input type="file" id="logoInput">
+                </label>
+                <button class="btn btn-secondary" onclick="saveLogo()">Upload Logo</button>
+            </section>
+        </div>
+
+        <section class="card">
+            <h2 class="card-title">Add Items</h2>
+            <p class="hint">
+                Add as many items as you want. Customers will be limited to the stock you enter.
+            </p>
+
+            <div class="item-form">
+                <label class="field">
+                    <span class="field-label">Item name</span>
+                    <input id="itemName" placeholder="Eg: Rice (1kg)">
+                </label>
+                <label class="field">
+                    <span class="field-label">Price (₹)</span>
+                    <input id="itemPrice" placeholder="Eg: 60">
+                </label>
+                <label class="field">
+                    <span class="field-label">Available quantity (stock)</span>
+                    <input id="itemStock" placeholder="Eg: 20">
+                </label>
+                <button class="btn btn-primary" onclick="addItem()">Add Item</button>
+            </div>
+
+            <h3 class="subsection-title">Items you have added <span id="itemsCount"
+                    style="color: var(--primary); font-size: 0.9em; margin-left: 8px;">(0)</span></h3>
+            <ul id="itemsList" class="items-list"></ul>
+        </section>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>

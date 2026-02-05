@@ -1,9 +1,15 @@
+
 const shopId = localStorage.getItem("currentShopId");
 const shop = shopId ? JSON.parse(localStorage.getItem(shopId)) : null;
 
 // If someone opens this page without a shop created, show a simple warning.
 if (!shop) {
     alert("No shop found. Please go back to the main website and submit your shop details first.");
+}
+
+// Set background image based on business type (kirana → kirana picture, salon → salon picture, etc.)
+if (shop && shop.business_type) {
+    document.body.classList.add("business-" + shop.business_type);
 }
 
 // Prefill shop name input if available
@@ -33,6 +39,11 @@ function renderItems() {
         li.textContent = `${index + 1}. ${item.name} - ₹${item.price}${stockText}`;
         itemsList.appendChild(li);
     });
+
+    const countEl = document.getElementById("itemsCount");
+    if (countEl) {
+        countEl.textContent = `(${shop.items.length})`;
+    }
 }
 
 function saveShopName() {
